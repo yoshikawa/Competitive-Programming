@@ -15,10 +15,9 @@ func main() {
 
 	fmt.Fscan(r, &h1)
 	fmt.Fscan(r, &h2)
-	fmt.Fprintln(w, Diff(h1, h2))
+	fmt.Fprintln(w, diff(h1, h2))
 }
 
-// Diff returns Snow depth's difference.
-func Diff(h1, h2 int) (abs int) {
+func diff(h1, h2 int) (abs int) {
 	return h1 - h2
 }
