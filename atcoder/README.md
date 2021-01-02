@@ -18,3 +18,11 @@ $ acc login
 # Login AtCoder with oj
 $ oj login https://beta.atcoder.jp/
 ```
+
+```sh
+# コンテストの問題のダウンロード
+$ acc new (コンテスト名) # Ex) acc new abc001
+
+# テストをするためのコマンド
+$ oj t -d tests -c "go run main.go" # ディレクトリ階層とファイル名に注意
+```
