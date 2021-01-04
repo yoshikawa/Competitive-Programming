@@ -1,6 +1,6 @@
 # AtCoder
 
-AtCoderを解くためのtipsなどをここに入れていく
+AtCoderの問題を解くためのtipsなどをここに入れていく
 
 ### 開発環境構築
 
